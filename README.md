@@ -51,6 +51,7 @@ docker pull arthurescriou/mqtt-kafka-connector:1.0.0
 cd mqtt-js-tests
 yarn
 node read.js
+node main.js
 ```
 
  ![Résultat :](Images/Screen.jpeg)
