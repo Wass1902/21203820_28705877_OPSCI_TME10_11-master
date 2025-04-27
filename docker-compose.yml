@@ -200,6 +200,7 @@ services:
       - strapi-net
 
   mosquitto:
+    platform: linux/amd64
     image: eclipse-mosquitto
     container_name: mosquitto
     restart: always
@@ -214,6 +215,7 @@ services:
       - strapi-net
 
   mqtt-kafka-connector:
+    platform: linux/amd64
     image: arthurescriou/mqtt-kafka-connector:1.0.0
     container_name: mqtt-kafka-connector
     restart: always
